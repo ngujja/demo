@@ -17,6 +17,6 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String hello() {
-        return "hello " + new Date();
+        return "hello world - " + new Date();
     }
 }
